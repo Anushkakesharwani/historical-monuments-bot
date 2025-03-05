@@ -3,20 +3,20 @@
     git clone https://github.com/Anushkakesharwani/historical-monuments-bot
     cd historical-monuments-bot
 
-2️ Create & Activate Virtual Environment
+2 Create & Activate Virtual Environment
 
     python -m venv venv
     venv\Scripts\activate
 
-3️ Install Dependencies
+3 Install Dependencies
 
     pip install -r requirements.txt
 
-4️ Run FastAPI Server
+4 Run FastAPI Server
 
     uvicorn app.main:app --reload
 
-5️ Test API
+5 Test API
 
     Once running, open your browser and visit:
     http://127.0.0.1:8000/docs
